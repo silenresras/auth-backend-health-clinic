@@ -14,8 +14,7 @@ const app = express()
 
 
 
-//https://your-vercel-frontend-domain.vercel.app
-const allowedOrigins = [process.env.CLIENT_URL, "http://localhost:8080",];
+const allowedOrigins = [process.env.CLIENT_URL, "frontend-health-clinic.vercel.app",];
 
 app.use(cors({
     origin: function (origin, callback) {
