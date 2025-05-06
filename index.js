@@ -14,7 +14,7 @@ const app = express()
 
 
 
-const allowedOrigins = [process.env.CLIENT_URL, "frontend-health-clinic.vercel.app",];
+const allowedOrigins = [process.env.CLIENT_URL, "https://frontend-health-clinic.vercel.app",];
 
 app.use(cors({
     origin: function (origin, callback) {
